@@ -1,0 +1,32 @@
+
+body { padding: 10px;
+    margin: 10px;
+    background-color: rgb(227, 237, 238);
+
+}
+
+
+
+h1 {
+   color: rgb(10, 10, 9);
+   margin: 10px 15px;
+   border: 4px solid #181a1a;
+   font-size: 60px;
+}
+
+h2 {
+    background-color: bisque;
+    margin: 5px 10px;
+    border: 2px solid #181a1a;
+    background-color: blue;
+    font-size: 40px;
+    
+}
+
+p {
+    margin-top: 0px;
+    border: solid 1px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 12px rgb(0,0,0,0,15);
+    color: blueviolet;
+}
