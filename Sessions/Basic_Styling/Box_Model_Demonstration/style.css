@@ -1,0 +1,23 @@
+p{
+    width: 200px;
+    background-color: rgb(149, 149, 253);
+    padding: 10px;
+    margin: 50px;
+    border: solid black;
+}
+
+div{
+    width: 350px;
+    background-color: rgb(230, 167, 86);
+    padding: 20px;
+    margin: 50px;
+}
+
+section{
+
+    width: 500px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 100px;
+    text-align: center;
+}
