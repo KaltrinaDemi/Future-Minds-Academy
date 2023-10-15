@@ -1,0 +1,28 @@
+p{
+width: 300px;
+margin: 0%;
+text-align: center;
+background-color: gray;
+}
+
+h1{
+    width: auto;
+    margin-top: auto;
+    
+}
+
+h1::before{
+    content: '-';
+    color: red;
+}
+h1::after{
+    content: '-';
+    color: yellowgreen;
+
+  }
+
+  p::first-letter{
+    font-size: 5rem;
+    color: yellow;
+    text-decoration: underline red;
+  }
