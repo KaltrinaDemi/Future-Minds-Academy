@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
     <link rel="icon" href="images/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Personal Portfolio</h1>
+        <h1 class="h1"> Personal Portfolio</h1>
         <hr>
-        <nav role="navigation">
-            <ul>
-                <li>
-                    <a href="myproject.html"> My Project </a>
-                    <span style='font-size:20px;'>&#128640;</span>
-                </li>
-                <li>
-                    <a href="contactme.html"> Contact Me! </a>
-                    <span style='font: size 20px;'>&#129505;</span>
-
-                </li>
-            </ul>
+        <nav>
+            <section class="nav">
+                <a href="myproject.html"> My Project </a>
+                <span style='font-size:20px;'>&#128640;</span>
+            </section>
+            <br>
+            <br>
+            <section class="nav">
+                <a href="contactme.html"> Contact Me! </a>
+                <span style='font: size 20px;'>&#129505;</span>
+            </section>
         </nav>
-
+        <hr>
     </header>
-    <hr>
+
     <main>
         <section id="Info">
-            <h2>Who is Kaltrina Demi Sijarina ?</h2>
+            <h2>Who is <u>Kaltrina Demi Sijarina</u></h2>
             <img src="images/img1.jpg.jpg" width="300px" alt="Kaltrina Demi Sijarina">
 
             <p>
@@ -43,91 +43,71 @@
                 have managed to achieve all my goals in life, including family and career, and work.</p>
         </section>
 
-        <section id="Education">
+        <section class="Info">
             <h2> Education</h2>
-            <ul>
-                <li> Primary School </li>
-                <ul>
-                    <li>
-                        <b>Abaz Ajeti (1994-2002)</b>
-                    </li>
-                </ul>
+            <section class="edu">
+                <h4>Primary School</h4>
+                <p>Abaz Ajeti (1994-2002)</p>
+            </section>
+            <section class="edu">
+                <h4> High School</h4>
+                <p>Shkolla Teknike Marin Barleti - Drejtimi Elektro (2003-2007)</p>
+            </section>
+            <section class="edu">
+                <h4> University</h4>
+                <p>University Universiteti Iliria - Banka,Financa Kontabilitet (2008-2011)</p>
+                <h4>Master Degree</h4>
+                <p>Menaxhment dhe Informatik (2012-2016)</p>
+                <h4>Master Degree</h4>
+                <p>E-Govermant</p>
+                <br>
+            </section>
 
-                <li> High School </li>
-                <ul>
-                    <li>
-                        <b>Shkolla Teknike Marin Barleti - Drejtimi Elektro (2003-2007)</b>
+            <section id="skills">
+                <h2> My Skills</h2>
+                <table border="1" width="50%">
+                    <thead>
+                        <tr>
 
-                    </li>
+                            <th>#</th>
+                            <th>English Launguage</th>
+                            <th>Mathematic</th>
+                            <th>Html</th>
+                            <th>Css</th>
+                            <th>JavaScript</th>
+                            <th>Other Skills</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center"><b>Reating</b></td>
 
-                </ul>
+                            <td align="center">9.0</td>
+                            <td align="center">9.0</td>
+                            <td align="center">8.0</td>
+                            <td align="center">8.0</td>
+                            <td align="center">8.0</td>
+                            <td align="center">9.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <section id="projects">
+                    <h2>My Projects</h2>
+                    <p>Tables with Rowspan and Colspan<a href="myproject.html#Project1"> Read More &#10511;</a></p>
+                    <br>
 
-                <li> University</li>
-                <ul>
-                    <li>
-                        <b>University Universiteti Iliria - Banka,Financa Kontabilitet (2008-2011)</b>
-                    </li>
-                </ul>
-                <li> Master Degree</li>
-                <ul>
-                    <li>
-                        <b>Menaxhment dhe Informatik (2012-2016)</b>
-                    </li>
-                </ul>
-                <li> Master Degree </li>
-                <ul>
-                    <li>
-                        <b>Menaxhment dhe Informatik (2012-2016)</b>
-                    </li>
-                </ul>
+                    <p>Sign Up and Log in Forms <a href="myproject.html#Project2"> Read More &#10511;</a></p>
+                    <br>
 
-        </section>
+                    <p>Html in Action<a href="myproject.html#Project3"> Read More &#10511;</a></p>
+                    <br>
 
-        <section id="skills">
-            <h2> My Skills</h2>
-            <table border="1">
-                <caption></caption>
-                <thead>
-                    <tr>
 
-                        <th scope="col">#</th>
-                        <th scope="col">English Launguage</th>
-                        <th scope="col">Mathematic</th>
-                        <th scope="col">Html
-
-</html>
-</th>
-<th scope="col">Css</th>
-<th scope="col">JavaScript</th>
-<th scope="col">Other Skills</th>
-</tr>
-</thead>
-<tbody>
-    <tr>
-        <td><b>Reating</b></td>
-        <td>9.0</td>
-        <td>9.0</td>
-        <td>8.0</td>
-        <td>8.0</td>
-        <td>8.0</td>
-        <td>9.0</td>
-    </tr>
-</tbody>
-</table>
-</section>
-
-<section id="projects">
-    <h2>My Projects</h2>
-    <ol>
-        <li>Tables with Rowspan and Colspan<a href="myproject.html#Project1"> Read More &#10511;</a></li>
-        <li>Sign Up and Log in Forms <a href="myproject.html#Project2"> Read More &#10511;</a></li>
-        <li>Html in Action<a href="myproject.html#Project3"> Read More &#10511;</a></li>
-    </ol>
-</section>
-</main>
-<footer>
-    <p>All rights reserved Kaltrina Demi Sijarina &copy;</p>
-</footer>
+                </section>
+    </main>
+    <footer id="kd">
+        <p id="footer">All rights reserved Kaltrina Demi Sijarina &copy;</p>
+    </footer>
 
 </body>
 

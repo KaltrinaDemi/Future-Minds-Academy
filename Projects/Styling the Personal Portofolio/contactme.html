@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="images/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -12,33 +13,34 @@
         <h1>Contact Me!</h1>
         <hr>
         <nav>
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
-                    <span style='font: size 20px;'>&#127968;</span>
-                </li>
-
-                <li>
-                    <a href="myproject.html">My Projects</a>
-                    <span style='font-size:20px;'>&#128640;</span>
-                </li>
-            </ul>
+            <section class="nav">
+                <a href="home.html">Home</a>
+                <span>&#127968;</span>
+            </section>
+            <br>
+            <section class="nav">
+                <a href="myproject.html">My Projects</a>
+                <span>&#128640;</span>
+            </section>
         </nav>
     </header>
 
     <main>
         <hr>
-        <section id="Message">
+        <section class="info">
             <h2>Send me a Message</h2>
+            <form class="contact">
+                <input type="email" id="email" name="email" placeholder="Email">
+            </form>
             <form>
-                <input type="email" id="email" name="email" placeholder="Email"><br>
-                <textarea name="coment" id="email" cols="50" rows="5" placeholder="What do you want to say?"></textarea>
-                <br>
+                <textarea name="conect" placeholder="What do you want to says" cols="50" rows="5"></textarea>
+            </form>
+            <form>
                 <input type="submit" value="Send Message!">
             </form>
         </section>
 
-        <section id="Social Media">
+        <section class="info">
             <h2>Contact with me</h2>
             <a href="https://www.facebook.com/" target="blank">
                 <img src="images/fbicon.jpg" width="75pxl" alt="Facebook Logo"></a>
@@ -50,8 +52,8 @@
 
     </main>
 
-    <footer>
-        <p>All rights reserved Kaltrina Demi Sijarina &copy;</p>
+    <footer id="kd">
+        <p id="kd">All rights reserved Kaltrina Demi Sijarina &copy;</p>
     </footer>
 
 </body>
