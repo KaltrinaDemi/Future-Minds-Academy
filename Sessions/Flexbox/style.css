@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container{
+    background-color:rgb(170, 138, 138);
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.flex-child{
+    background-color: purple;
+    border-radius: 10px;
+    padding: 1em;
+    color: white;
+}
